@@ -1,0 +1,32 @@
+.hero {
+  display: grid;
+  gap: 1.4rem;
+  padding-top: 4rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.95rem;
+  border-radius: 999px;
+  background: rgba(59, 47, 47, 0.08);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(2.6rem, 4vw, 3.6rem);
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+}
+
+.hero p {
+  margin: 0;
+  max-width: 60ch;
+  line-height: 1.65;
+  color: rgba(59, 47, 47, 0.75);
+}
